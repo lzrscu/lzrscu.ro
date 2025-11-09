@@ -1,4 +1,16 @@
 @font-face {
-    font-family: 'Less Perfect DOS VGA';
-    src: url(fonts/LessPerfectDOSVGA.ttf);
+    font-family: "TerminusTTF";
+    src: url(fonts/TerminusTTF.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "TerminusTTF";
+    font-size: 12px;
+}
+
+h1 {
+    font-family: "TerminusTTF";
+    font-size: 16px;
 }
