@@ -1,72 +1,71 @@
-/* 90s Forest Theme Styles */
-
+/* Whiter, Simpler Early Internet Palette */
 body {
-    background-color: #002200; /* Deep forest green */
-    color: #c0c0c0; /* Classic silver text */
-    font-family: "Times New Roman", Times, serif;
-    margin: 0;
-    padding: 20px;
-    line-height: 1.4;
-}
-
-/* The main "page" container */
-#container {
-    max-width: 650px;
-    margin: 0 auto;
-    background-color: #003300;
-    border: 3px double #777; /* Classic 90s border style */
-    padding: 20px;
-    box-shadow: 5px 5px 0px #000; /* Harsh 90s shadow */
+  background-color: #f0f0f0;
+  font-family: "Times New Roman", Times, serif;
+  color: #000000;
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: center;
 }
 
 header {
-    text-align: center;
-    border-bottom: 1px solid #444;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 h1 {
-    color: #228B22; /* Forest Green */
-    text-shadow: 1px 1px #fff;
-    margin-bottom: 5px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #444;
 }
 
 nav {
-    text-align: center;
-    margin-bottom: 20px;
-    word-spacing: 15px;
+  margin: 15px 0;
 }
 
-a {
-    color: #00FF00; /* Neon green links */
-    text-decoration: underline;
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #0000FF;
 }
 
-a:hover {
-    background-color: #00FF00;
-    color: #000;
+nav a:hover {
+  text-decoration: underline;
 }
 
-.pixel-art-placeholder {
-    width: 100%;
-    height: 150px;
-    background: repeating-linear-gradient(45deg, #004400, #004400 10px, #005500 10px, #005500 20px);
-    border: 1px solid #228B22;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
+hr {
+  border: 0;
+  border-top: 1px solid #808080;
+  margin: 20px 0;
+}
+
+#content {
+  text-align: left
+}
+
+h2, h3 {
+  color: #000000;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: square;
+  display: inline-block;
+  text-align: left;
+  margin: 10px auto;
+  padding-left: 20px;
+}
+
+#linking {
+  margin: 20px 0;
 }
 
 footer {
-    margin-top: 30px;
-    font-size: 0.8em;
-    text-align: center;
-    border-top: 1px solid #444;
-    padding-top: 10px;
-}
-
-/* Makes list markers look more retro */
-ul {
-    list-style-type: square;
+  font-size: 0.8em;
+  margin-top: 40px;
 }
