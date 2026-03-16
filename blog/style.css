@@ -2,10 +2,6 @@
 body {
   background-color: #f0f0f0;
   font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
-  -webkit-font-smoothing: none;
-  font-smooth: never;
-  text-rendering: optimizeSpeed;
   color: #000000;
   margin: 40px auto;
   max-width: 800px;
