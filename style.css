@@ -1,7 +1,7 @@
 /* Whiter, Simpler Early Internet Palette */
 body {
   background-color: #f0f0f0;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: none;
   font-smooth: never;
