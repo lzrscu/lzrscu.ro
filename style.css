@@ -1,75 +1,52 @@
-/* Whiter, Simpler Early Internet Palette */
 body {
-  background-color: #f0f0f0;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 16px;
-  -webkit-font-smoothing: none;
-  font-smooth: never;
-  text-rendering: optimizeSpeed;
-  color: #000000;
-  margin: 40px auto;
-  max-width: 800px;
-  text-align: center;
-}
-
-header {
-  margin-bottom: 20px;
-}
-
-h1 {
-  margin-bottom: 5px;
-  color: #000000;
-}
-
-.quote {
-  font-style: italic;
-  font-size: 0.9em;
-  color: #444;
-}
-
-nav {
-  margin: 15px 0;
-}
-
-nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #0000FF;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid #808080;
-  margin: 20px 0;
+    font-family: "IBM Plex Sans", "Times New Roman", serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
 }
 
 #content {
-  text-align: left
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-h2, h3 {
-  color: #000000;
-  text-decoration: underline;
+h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+a:link {color: blue; text-decoration: none }
+a:hover {background:#eeeeee; color:black}
+a:visited { color: blue; text-decoration: none }
+
+p.paragraph {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+p.text-section {
+    margin-left: 40px;
+}
+
+p.email {
+    margin-left: 40px;
+    font-size: 90%;
+}
+
+p.copyright {
+    text-align: center;
+    font-size: 80%;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 ul {
-  list-style-type: square;
-  display: inline-block;
-  text-align: left;
-  margin: 10px auto;
-  padding-left: 20px;
+    list-style-type: square;
+    margin-top: 0;
+    padding-left: 40px;
 }
 
-#linking {
-  margin: 20px 0;
-}
-
-footer {
-  font-size: 0.8em;
-  margin-top: 40px;
+.nav-links {
+    margin-left: 40px;
 }
